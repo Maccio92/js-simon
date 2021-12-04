@@ -57,7 +57,7 @@ let numberContainer = document.createElement('div');
 numberContainer.append (numbers);
 container.append(numberContainer);
 
-let seconds = 5;
+let seconds = 30;
 setTimeout(() => {
     container.innerHTML = '';   
     // Creo il countdown di 30 secondi
